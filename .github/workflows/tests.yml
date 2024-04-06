@@ -11,7 +11,7 @@ permissions: {}
 
 jobs:
   unit-tests:
-    if: github.repository == 'angular/domino'
+    if: github.repository == 'mixmark-io/domino'
     runs-on: ubuntu-latest
     steps:
       - uses: actions/checkout@ac593985615ec2ede58e132d2e21d2b1cbd6127c # tag=v3.3.0

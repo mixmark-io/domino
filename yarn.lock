@@ -5,17 +5,6 @@ __metadata:
   version: 6
   cacheKey: 8
 
-"@angular/domino@workspace:.":
-  version: 0.0.0-use.local
-  resolution: "@angular/domino@workspace:."
-  dependencies:
-    jquery: ^3.5.1
-    mocha: ^6.2.3
-    puppeteer: ^21.3.5
-    should: ^13.2.3
-  languageName: unknown
-  linkType: soft
-
 "@babel/code-frame@npm:^7.0.0":
   version: 7.22.13
   resolution: "@babel/code-frame@npm:7.22.13"
@@ -43,6 +32,17 @@ __metadata:
   checksum: 84bd034dca309a5e680083cd827a766780ca63cef37308404f17653d32366ea76262bd2364b2d38776232f2d01b649f26721417d507e8b4b6da3e4e739f6d134
   languageName: node
   linkType: hard
+
+"@mixmark-io/domino@workspace:.":
+  version: 0.0.0-use.local
+  resolution: "@mixmark-io/domino@workspace:."
+  dependencies:
+    jquery: ^3.5.1
+    mocha: ^6.2.3
+    puppeteer: ^21.3.5
+    should: ^13.2.3
+  languageName: unknown
+  linkType: soft
 
 "@puppeteer/browsers@npm:1.7.1":
   version: 1.7.1

@@ -1,5 +1,5 @@
 {
-  "name": "@angular/domino",
+  "name": "@mixmark-io/domino",
   "version": "2.1.6+git",
   "license": "BSD-2-Clause",
   "author": "Felix Gnass <fgnass@gmail.com>",
@@ -7,7 +7,7 @@
   "main": "./lib",
   "repository": {
     "type": "git",
-    "url": "https://github.com/angular/domino.git"
+    "url": "https://github.com/mixmark-io/domino.git"
   },
   "scripts": {
     "test": "mocha"
